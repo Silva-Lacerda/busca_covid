@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Covid-19 por país</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Consultar dados de Covid-19 por país</h1>
+    <label for="countrySelect">Selecione um país:</label>
+    <select id="countrySelect">
+        <option value="Brazil">Brasil</option>
+        <option value="Canada">Canadá</option>
+        <option value="Australia">Austrália</option>
+    </select>
+    <button onclick="getData()">Consultar</button>
+
+    <div id="dataContainer">
+        <!-- Dados de Covid-19 serão exibidos aqui -->
+    </div>
+
+    <footer id="footer">
+        Último acesso: <span id="lastAccess"></span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

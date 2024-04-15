@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, button {
+    margin: 10px 0;
+}
+
+#dataContainer {
+    margin-top: 20px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
